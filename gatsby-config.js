@@ -5,8 +5,8 @@ const googleAnalyticsTrackingId = process.env.GOOGLE_ANALYTICS_ID
 
 module.exports = {
   siteMetadata: {
-    siteTitle: `DW`,
-    siteTitleAlt: `I am Dan Kim`,
+    siteTitle: `인문학 하는 개발자`,
+    siteTitleAlt: `Joshua`,
   },
   flags: {
     FAST_DEV: true,
@@ -24,6 +24,10 @@ module.exports = {
           {
             title: `About`,
             slug: `/about`,
+          },
+          {
+            title: `Test`,
+            slug: `/test`,
           },
         ],
         externalLinks: [
